@@ -1,0 +1,2 @@
+<button title="Update {{ $model->name }} Information" id="content_managment" data-url="{{ route('admin.user.edit',$model->id) }}"  class="btn btn-sm btn-info"><i class="fa fa-pencil-square-o"></i></button>
+<button title="Delete {{ $model->name }}" id="delete_item" data-id ="{{ $model->id }}" data-url="{{ route('admin.user.delete',$model->id) }}"  class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button>
